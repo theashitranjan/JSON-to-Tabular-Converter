@@ -4,7 +4,7 @@ import customtkinter as ctk
 from tkinter import filedialog, messagebox
 from tkinter import ttk
 
-ctk.set_appearance_mode("System")  # Light, Dark, or System
+ctk.set_appearance_mode("System")  # theme
 ctk.set_default_color_theme("blue")
 
 def load_json():
@@ -16,7 +16,7 @@ def load_json():
         with open(file_path, 'r') as f:
             data = json.load(f)
 
-        df = pd.json_normalize(data, sep='_')
+        df = pd.json_normalize(data, sep='.')
         show_table(df)
     except Exception as e:
         messagebox.showerror("Error", f"Failed to load or process file:\n{e}")

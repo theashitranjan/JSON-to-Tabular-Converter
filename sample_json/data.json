@@ -1,0 +1,21 @@
+[
+    {
+      "id": 1,
+      "name": "Alice",
+      "location": {
+        "city": "New York",
+        "zip": "10001"
+      },
+      "skills": ["Python", "SQL"]
+    },
+    {
+      "id": 2,
+      "name": "Bob",
+      "location": {
+        "city": "San Francisco",
+        "zip": "94107"
+      },
+      "skills": ["JavaScript", "React"]
+    }
+  ]
+  

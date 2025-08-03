@@ -1,0 +1,3 @@
+id,name,skills,location.city,location.zip
+1,Alice,"['Python', 'SQL']",New York,10001
+2,Bob,"['JavaScript', 'React']",San Francisco,94107
