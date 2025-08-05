@@ -31,7 +31,7 @@ This repository demonstrates the full workflow of reshaping irregular JSON data 
 | `assets/step*.png`        | GUI screenshots (1-4)                      |
 | `sample_json/`            | Test JSON files                            |
 | `README.md`               | Project documentation                      |
-
+| `Documentaion.pptx`       | Presentaion File                           |
 ---
 
 ## 💻 GUI Demo
